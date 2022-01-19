@@ -22,7 +22,6 @@ export class CreateComponent implements OnInit {
   create() {
     const tourist = this.form.value;
     this._touristService.create(tourist).subscribe(() => {
-      console.log("Đã xóa")
     })
   }
 }
