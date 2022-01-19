@@ -1,3 +1,4 @@
+<button routerLink="create"></button>
 <div>
   <table class="table">
     <thead>
@@ -7,6 +8,7 @@
       <th>Dân Số</th>
       <th>Mô tả</th>
       <th>GDP</th>
+      <th>Xóa</th>
     </tr>
     </thead>
     <tbody *ngFor="let t of tourist">
@@ -16,6 +18,7 @@
       <td>{{t.acreage}}</td>
       <td>{{t.description}}</td>
       <td>{{t.gdp}}</td>
+      <td><button (click)="delete()">Xóa</button></td>
     </tr>
     </tbody>
   </table>

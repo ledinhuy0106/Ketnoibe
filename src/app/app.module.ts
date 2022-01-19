@@ -5,12 +5,13 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from "@angular/common/http";
 import { ListTouristComponent } from './component/list-tourist/list-tourist.component';
 import { EditTouristComponent } from './component/edit-tourist/edit-tourist.component';
-
+import { CreateComponent } from './component/create/create.component';
 @NgModule({
   declarations: [
     AppComponent,
     ListTouristComponent,
-    EditTouristComponent
+    EditTouristComponent,
+    CreateComponent
   ],
   imports: [
     BrowserModule,

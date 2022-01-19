@@ -29,10 +29,4 @@ export class EditTouristComponent implements OnInit {
       })
     })
   }
-  delete(){
-    //@ts-ignore
-    this._touristService.delete(this.tourist.id).subscribe(()=>{
-      console.log("Đã xóa")
-    })
-  }
 }
