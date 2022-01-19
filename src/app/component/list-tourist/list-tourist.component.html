@@ -1,1 +1,22 @@
-<p>list-tourist works!</p>
+<div>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Thành Phố</th>
+      <th>Dân Số</th>
+      <th>Mô tả</th>
+      <th>GDP</th>
+    </tr>
+    </thead>
+    <tbody *ngFor="let t of tourist">
+    <tr>
+      <td>{{t.id}}</td>
+      <td>{{t.city}}</td>
+      <td>{{t.acreage}}</td>
+      <td>{{t.description}}</td>
+      <td>{{t.gdp}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

@@ -19,4 +19,5 @@ export class ListTouristComponent implements OnInit {
       console.log(result)
     })
   }
+
 }

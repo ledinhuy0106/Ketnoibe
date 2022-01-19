@@ -3,5 +3,5 @@ export interface Tourist {
   acreage?:String;
   city?:String;
   description?:String;
-  GDP?:String
+  gdp?:String
 }
